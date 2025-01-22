@@ -1,5 +1,12 @@
 *{padding: 0;
     margin: 0;}
+    
+    .quicksand-normal {
+      font-family: "Quicksand", serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+    }
 
 /* Sheared Styles */
 
@@ -9,6 +16,12 @@
 
 
 /* Nav Style */
+
+marquee {
+    letter-spacing: 1px;
+    border: 1px solid rgba(254, 163, 1, 0.5);
+}
+
 
 .nav{
 display: flex;
@@ -90,11 +103,11 @@ justify-content: center;
 text-align: center;
 border-radius: 15px;
 padding: 20px;
-height: 350px;
+height: auto;
 margin: 20px;
 width: 300px;
 background-image: linear-gradient(rgba(222, 245, 255, 1), rgba(255, 255, 255, 0));
-box-shadow: rgba(0, 0, 0, 0.05);
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
 border: 1px solid rgba(222, 245, 255, 1);
 }
 .standard-card2{
@@ -102,11 +115,11 @@ border: 1px solid rgba(222, 245, 255, 1);
     text-align: center;
     border-radius: 15px;
     padding: 20px;
-    height: 350px;
+    height: auto;
     margin: 20px;
     width: 300px;
     background-image: linear-gradient(rgba(255, 244, 220, 1), rgba(255, 255, 255, 0));
-    box-shadow: rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
     border: 1px solid rgba(255, 244, 220, 1);
 
 }
@@ -115,11 +128,11 @@ border: 1px solid rgba(222, 245, 255, 1);
     text-align: center;
     border-radius: 15px;
     padding: 20px;
-    height: 350px;
+    height: auto;
     margin: 20px;
     width: 300px;
     background-image: linear-gradient(rgba(238, 225, 255, 1), rgba(255, 255, 255, 0));
-    box-shadow: rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
     border: 1px solid rgba(242, 232, 255, 1);
 }
 
@@ -285,7 +298,7 @@ margin-bottom: 10px;}
 
 .foot-logo-title{display: flex;}
 
-.footer-section-2{text-align: center;
+.footer-section-2{text-align: start;
 display: inline;}
 
 .foot-section2{padding-top: 10px;}
@@ -337,7 +350,6 @@ grid-template-columns: repeat(1, 1fr);
 
 .standard-card1{
     width: 80%;
-    height: auto;
 }
 .standard-card2{
     width: 80%;
@@ -406,8 +418,6 @@ height: auto;}
         .footer-section-2{
         align-items: start;
         text-align: start;}
-
-
 }
 
 
