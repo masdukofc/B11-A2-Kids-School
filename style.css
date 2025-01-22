@@ -53,8 +53,7 @@ align-items: center;}
 
 .header-title{padding-bottom: 15px;}
 
-.header-sub-title{padding-bottom: 15px;
-margin: 20px;}
+.header-sub-title{padding-bottom: 15px;}
 
 .header-btn{padding: 10px 30px;
     border: none;
@@ -129,9 +128,9 @@ border: 1px solid rgba(222, 245, 255, 1);
 }
 
 
-.c-btn1{color:rgba(100, 200, 255, 1) ;}
+.c-btn1{color:rgba(100, 200, 255, 1);}
 
-.c-btn2{color:rgba(240, 170, 0, 1) ;}
+.c-btn2{color:rgba(240, 170, 0, 1);}
 
 .c-btn3{color: rgba(135, 0, 255, 1);}
 
@@ -165,6 +164,8 @@ align-items: center;}
     align-items: center;
     text-align: center;
 }
+
+.header-sub-title{margin: 10px;}
 
 .header-img{width: 80%;
 height: 80%;}
