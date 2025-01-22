@@ -1,12 +1,9 @@
 *{padding: 0;
     margin: 0;}
 
-.contact-btn button{padding: 10px 30px;
-border: none;
-background-color: rgba(254, 163, 1, 1);
-color: white;
-border-radius: 10px;
-font-weight: 600;}
+/* Sheared Styles */
+
+.bold{font-weight: bold;}
 
 
 /* Nav Style */
@@ -17,6 +14,13 @@ align-items: center;
 justify-content: space-around;
 height: 100px;
 width: 100%;}
+
+.contact-btn button{padding: 10px 30px;
+    border: none;
+    background-color: rgba(254, 163, 1, 1);
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;}
 
 .nav-title{justify-content: center;
 align-items: center;}
@@ -86,7 +90,7 @@ border-radius: 15px;
 padding: 20px;
 height: 350px;
 margin: 20px;
-width: 350px;
+width: 300px;
 background-image: linear-gradient(rgba(222, 245, 255, 1), rgba(255, 255, 255, 0));
 box-shadow: rgba(0, 0, 0, 0.05);
 border: 1px solid rgba(222, 245, 255, 1);
@@ -98,7 +102,7 @@ border: 1px solid rgba(222, 245, 255, 1);
     padding: 20px;
     height: 350px;
     margin: 20px;
-    width: 350px;
+    width: 300px;
     background-image: linear-gradient(rgba(255, 244, 220, 1), rgba(255, 255, 255, 0));
     box-shadow: rgba(0, 0, 0, 0.05);
     border: 1px solid rgba(255, 244, 220, 1);
@@ -111,7 +115,7 @@ border: 1px solid rgba(222, 245, 255, 1);
     padding: 20px;
     height: 350px;
     margin: 20px;
-    width: 350px;
+    width: 300px;
     background-image: linear-gradient(rgba(238, 225, 255, 1), rgba(255, 255, 255, 0));
     box-shadow: rgba(0, 0, 0, 0.05);
     border: 1px solid rgba(242, 232, 255, 1);
@@ -143,10 +147,46 @@ font-size: 40px;
 color: orange;
 margin-top:15px ;}
 
+/* Stories Style */
 
-/* Sheared Styles */
+.stories-card{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
 
-.bold{font-weight: bold;}
+.stories-btn{padding: 10px;
+border: none;
+border-radius:10px;}
+
+.big-card2{
+    width: 350px;
+    height: 200px;
+}
+
+.btn-style-1{
+    position: absolute;
+    top: 50;
+    padding: 10px;
+    border: none;
+    border-radius:10px;
+    background-color: rgba(60, 216, 232, 1);}
+
+.btn-style-2{padding: 10px;
+    border: none;
+    border-radius:10px;
+    background-color: rgba(149, 178, 38, 1);}
+
+.btn-style-3{padding: 10px;
+    border: none;
+    border-radius:10px;
+    background-color: rgba(93, 88, 240, 1);}
+
+.multiple-card{display: grid;
+grid-template-columns: repeat(2, 2fr);}
 
 /* Mobile Screen */
 
