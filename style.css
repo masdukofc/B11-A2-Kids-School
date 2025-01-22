@@ -70,8 +70,11 @@ height: 100%;}
 
 /* Standard Curriculum Styles*/
 
-.standard-curriculum{display: flex;
-margin-top: 100px;
+.standard-curriculum{text-align: center;
+margin-top: 100px;}
+
+.standard-curriculum-card{display: flex;
+margin-top: 30px;
 justify-content: center;
 gap: 50px;}
 
