@@ -5,6 +5,8 @@
 
 .bold{font-weight: bold;}
 
+.top-padding{padding-top: 15px;}
+
 
 /* Nav Style */
 
@@ -59,7 +61,7 @@ align-items: center;}
 
 .header-sub-title{padding-bottom: 15px;}
 
-.header-btn{padding: 10px 30px;
+.basic-btn{padding: 10px 30px;
     border: none;
     background-color: black;
     color: white;
@@ -72,7 +74,7 @@ height: 100%;}
 
 
 
-/* Standard Curriculum Styles*/
+/*--Curriculum Styles--*/
 
 .standard-curriculum{text-align: center;
 margin-top: 100px;
@@ -147,46 +149,122 @@ font-size: 40px;
 color: orange;
 margin-top:15px ;}
 
-/* Stories Style */
+.arrow:hover{opacity: calc(100% - 20%);}
 
-.stories-card{
-    display: flex;
-    gap: 100px;
-    justify-content: center;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 50px;
-}
+/*--Curriculum Styles End--*/
+
+
+/*--Stories Style--*/
+
+.stories{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.493), rgba(254, 161, 1, 0.308)), url(./assets/bg.png);}
+
+.story-title{padding: 15px 15px;}
+
+.main-story-title{padding: 25px 0 15px 15px;}
+
+.main-story-sub-title{padding: 0px 15px 15px 15px;}
+
+
+
+
+/* Button Style */
 
 .stories-btn{padding: 10px;
 border: none;
 border-radius:10px;}
 
-.big-card2{
-    width: 350px;
-    height: 200px;
-}
+.story-main-btn{
+    position: absolute;
+    bottom: 30%;
+    left: 20%;
+    transform: translateX(-50%);}
+
+    .story-sub-btn1{
+    position: absolute;
+    bottom: 25%;
+    left: 30%;
+    transform: translateX(-50%);}
+    
+    .story-sub-btn2{
+    position: absolute;
+    bottom: 25%;
+    left: 30%;
+    transform: translateX(-50%);}
+    
+    .story-sub-btn3{
+    position: absolute;
+    bottom: 20%;
+    left: 30%;
+    transform: translateX(-50%);}
+    
+    .story-sub-btn4{
+    position: absolute;
+    bottom: 20%;
+    left: 30%;
+    transform: translateX(-50%);}
 
 .btn-style-1{
     position: absolute;
     top: 50;
     padding: 10px;
     border: none;
-    border-radius:10px;
+    border-radius:30px;
+    color: white;
     background-color: rgba(60, 216, 232, 1);}
 
 .btn-style-2{padding: 10px;
     border: none;
-    border-radius:10px;
+    border-radius: 30px;
+    color: white;
     background-color: rgba(149, 178, 38, 1);}
 
 .btn-style-3{padding: 10px;
     border: none;
-    border-radius:10px;
+    border-radius:30px;
+    color: white;
     background-color: rgba(93, 88, 240, 1);}
 
+.v-all-btn{
+text-align: center;}
+
+/* Image Style */
+
+.story-main-img{position: relative;
+border-radius: 15px 15px 0 0;}
+
+/* Card Styles */
+
+.stories-card{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    padding: 50px;
+}
+
+.story-main-card{
+    position: relative;
+    background-color: white;
+    border-radius: 15px;}
+
 .multiple-card{display: grid;
-grid-template-columns: repeat(2, 2fr);}
+grid-template-columns: repeat(2, 2fr);
+gap: 10px;}
+
+.card {
+    position: relative;
+    width: 290px;
+    height: 250px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.story-sub-img{border-radius: 15px 15px 0 0;}
+
+/*--Stories Style End--*/
+
+
+
 
 /* Mobile Screen */
 
@@ -194,7 +272,7 @@ grid-template-columns: repeat(2, 2fr);}
 
     .nav{border: 2px solid orange;
     width: 100%;
-height: 100px;}
+    height: 100px;}
     .nav-title{display: none;}
 
     .nav-sections ul li{display: none;}
@@ -206,8 +284,8 @@ height: 100px;}
     align-items: center;}
 
     .nav-img{width: 100%;
-height: 100%;
-align-items: center;}
+    height: 100%;
+    align-items: center;}
 
 .header-containers{display: inline;
     align-items: center;
@@ -239,6 +317,58 @@ grid-template-columns: repeat(1, 1fr);
 }
 
 .left-and-right-arrow{display: none;}
+
+.story-main-card{display: none;}
+
+.multiple-card{display:grid;
+grid-template-columns: 2, 2fr;}
+
+.story-sub-img{width: 100%;}
+
+.card{width:auto;
+height: auto;}
+
+.btn-style-2{
+    font-size: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: rgba(149, 178, 38, 1);}
+
+.btn-style-3{
+    font-size: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: rgba(93, 88, 240, 1);
+    }
+
+    .story-sub-btn1{
+        position: absolute;
+        bottom: 40%;
+        left: 40%;
+        transform: translateX(-50%);}
+        
+        .story-sub-btn2{
+        position: absolute;
+        bottom: 40%;
+        left: 40%;
+        transform: translateX(-50%);}
+        
+        .story-sub-btn3{
+        position: absolute;
+        bottom: 45%;
+        left: 40%;
+        transform: translateX(-50%);}
+        
+        .story-sub-btn4{
+        position: absolute;
+        bottom: 45%;
+        left: 40%;
+        transform: translateX(-50%);}
+
 
 }
 
